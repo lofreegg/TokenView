@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Runtime & Cache Data (CRITICAL: Do NOT commit personal data)
+app-data/
+build/
+release/
+test-artifacts/
+*.vbs
+
+# Environment variables & local secrets
+.env
+*.local
+*.log
+*.tmp
+*.bak
+
+# IDE & OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

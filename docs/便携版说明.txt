@@ -1,0 +1,21 @@
+TokenView 个人便携版
+
+解压整个文件夹，双击 TokenView.exe。不要只移动 EXE，必须保留 _internal 目录。
+无需安装 Python。仅 Windows 64 位；依赖系统自带 .NET Framework。
+仅吸附 MyAgents：MyAgents 不在前台时隐藏，仍在托盘运行。
+默认每10分钟刷新，设置中的开机启动指向解压后的 EXE；移动目录后需重新开关开机启动。
+
+此包是本机自用轻量版，不是完全独立的查询客户端。
+Codex 使用已安装的官方 CLI（PATH 或 MyAgents Runtime）。
+独立 Antigravity 授权使用已安装的 MyAgents CLIProxy Runtime。
+复用 MyAgents Antigravity 账号时，还需现有 AGY CLI；当前搜索 PATH 或 D:\myagent\codex-tools\antigravity-cli\agy.exe。
+DeepSeek 使用用户已有 Key。程序不会读取浏览器 Cookie。
+上述查询组件没有重复打入包中，换电脑需安装 MyAgents及所需查询组件并重新登录。
+
+分发 ZIP 不含账号、Key、登录令牌和个人设置。
+首次运行会在 EXE 同级创建 app-data 与 runtime-cache。
+额外账号凭据使用当前 Windows 用户加密，不可当作跨电脑通用登录凭据。
+如分享给别人，请只分享原始 ZIP，不要分享已经运行过的整个目录。
+
+当前未做代码签名；偶发闪退根因尚未确认，日志保留在 app-data。
+退出使用托盘右键“退出”。删除解压目录前先关闭开机启动并退出程序。
