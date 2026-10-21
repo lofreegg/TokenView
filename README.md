@@ -50,7 +50,7 @@ When building applications with large language models and autonomous coding agen
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/TokenView.git
+   git clone https://github.com/lofreegg/TokenView.git
    cd TokenView
    ```
 
